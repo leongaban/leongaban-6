@@ -1,0 +1,604 @@
+/*** IE 7 ***/
+.header {
+	position: relative;
+	z-index: 10000;
+}
+
+.header-top div{
+	position: relative;
+	z-index: 10000;
+}
+
+.header .header-nav {
+	position: relative;
+	z-index: 10000;
+	width: 300px;
+}
+
+.header .header-nav ul#nav-account {
+	position: absolute;
+	bottom: 50px;
+	left: 160px;
+	margin: 0;
+	z-index: 11;
+}
+
+.header .header-nav ul#nav-library {
+	position: relative;
+	bottom: 15px;
+	margin: 0;
+	z-index: 10;
+}
+
+.header .header-nav ul#nav-account ul.dropdown-menu {
+	margin-top: 20px;
+	margin-left: -100px;
+	z-index: 10001;
+}
+.header .header-nav ul#nav-library ul.dropdown-menu {
+	margin-top: 20px;
+	margin-left: -100px;
+	z-index: 10000;
+}
+
+.header #search {
+	width: 60%;
+	margin: 0;
+}
+
+.header #search input { 
+	width: 80%; 
+}
+
+.container .content {
+	position: relative;
+	z-index: 1;
+}
+
+/* Advanced Dropdown Buttons */
+.header #advanced-dropdowns {
+	padding-top: 8px;
+	float: right;
+	margin: 0;
+	z-index: 100000;
+}
+.header #advanced-dropdowns ul li a div { float: left; }
+.header #advanced-dropdowns ul li,
+.header #advanced-dropdowns ul li a { cursor: pointer; }
+.header #drop-btn-advanced,
+.header #drop-btn-concierege {
+	width: 140px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 4px 0 0 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: -20px;
+    text-align: center;
+    color: #666;
+	text-shadow: 1px 1px #f8f8f8;
+}
+.header #drop-btn-advanced, .header #drop-btn-concierege {
+	background: url('../img/btn_header_advanced_drop_btn.png') no-repeat;
+}
+
+.right-concierge {
+	float: left;
+	padding: 10px 10px 25px 17px;
+	width: auto;
+}
+.right-concierge form {
+	margin-top: 25px;
+	width: 100%;
+}
+.right-concierge label {
+	color: #4ea6d3;
+	font-size: 13px;
+	width: 300px;
+	font-weight: 700;
+}
+.right-concierge input {
+	width: 299px;
+	height: 24px;
+	margin: 0 0 20px 0;
+}
+
+#concierge_dropdown .right-concierge #submit {
+	width: 111px;
+	height: 31px;
+	float: right;
+	margin: 0;
+	padding: 2px 0 0 0px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #acd9f2;
+	text-align: center;
+	background: url('../img/btn-search-bg.png') no-repeat; 
+}
+.right-concierge .float_right {
+	/*position: relative;*/
+	float: right;
+	width: 50%;
+	/*left: 40px;
+	top: -240px;*/
+	margin: 0 0 0 0px;
+}
+.right-concierge .float_right textarea {
+	height: 162px;
+	width: 299px;
+}
+.right-concierge .float_left {
+	float: left;
+}
+
+.column .col-header {
+    height: 68px;
+    margin: 0 auto;
+    width: 289px;
+    position:relative;
+    overflow: visible;
+}
+
+.column .col-learn-content, .col-read-content, .col-watch-content, .col-latest-content, .col-industry-content {
+	background: none repeat scroll 0 0 #FFFFFF;
+    margin: -34px auto 0;
+    padding: 55px 0 10px 0;
+    width: 320px;
+    position:relative;
+    z-index: 1;
+}
+
+/* Learn Column */
+.col-learn-content .view-all {
+	margin-top: 30px; /* hack */
+}
+
+/* Read Column */
+.column .col-read-content .dashed-divider {
+	width: 100%;
+	padding: 4px 0;
+	border-bottom: 1px dashed #ccc;
+}
+
+.col-read-content ul li.meta a {
+	letter-spacing: -1px;
+}
+
+.col-read-content .view-all {
+	margin-top: 0px;
+}
+
+/* Industry News Column */
+.column .col-industry-content ul {
+	padding: 0 10px;
+}
+
+.column .col-industry-content ul li {
+	margin-bottom: 5px;
+}
+
+.column .col-industry-content li.title-small {
+	margin-bottom: 1px;
+}
+
+.column .col-industry-content li.dashed-divider {
+	width: 90%;
+	height: 1px;
+	margin: 5px 0 0 0;
+	border-bottom: 1px dashed #ccc;
+}
+
+.header #advanced-dropdowns {
+	padding-top: 8px;
+}
+
+/*** 768 ***/
+@media screen and (max-width: 1024px) {
+	.column .col-learn-content, .col-read-content, .col-watch-content, .col-latest-content, .col-industry-content {
+		background: none repeat scroll 0 0 #FFFFFF;
+	    margin: -34px auto 0;
+	    padding: 55px 0 10px 0;
+	    width: 320px;
+	    z-index: 0;
+	}
+}
+
+/*** 768 ***/
+@media screen and (max-width: 768px) {
+
+	.header #search {
+		width: 50%;
+		margin: 0;
+	}
+
+	.header #search input { 
+		width: 65%; 
+	}
+	
+	.header #advanced-dropdowns {
+		padding-top: 2px;
+	}
+
+	.pillar1, .pillar2,
+	.adaptive-pillar1, 
+	.adaptive-pillar2 {
+		float: left;
+		width: 340px;
+	}
+
+	.column {
+		padding: 0;
+	}
+
+	.column .col-learn-content,
+	.column .col-read-content,
+	.column .col-latest-content,
+	.column .col-industry-content {
+		margin-left: 10px;
+		width: 340px;
+	}
+
+	.footer .feedback, .footer .about, .footer .partner, .footer .support {
+		float: left;
+		width: 180px;
+	}
+}
+
+/*** 640 ***/
+@media screen and (max-width: 640px) {
+	.header #search {
+		width: 100%;
+		margin: 0;
+	}
+
+	.header #search input { 
+		width: 75%; 
+	}
+
+	.pillar1, .pillar2,
+	.adaptive-pillar1, 
+	.adaptive-pillar2 {
+		float: left;
+		width: 100%;
+	}
+
+	.column {
+		width: 600px;
+	}
+
+	.column .col-learn-content,
+	.column .col-read-content,
+	.column .col-latest-content,
+	.column .col-industry-content {
+		margin-left: 10px;
+		width: 580px;
+	}
+
+	.column .col-learn-content {
+		height: 520px;
+	}
+
+	.column .col-learn-content .view-all {
+		margin-top: 60px;
+	}
+
+	.column .col-learn-content ul {
+		width: 100%;
+	}
+
+	/* Watch column */
+	.col-watch-content {
+	    margin: -34px 10px;
+	    padding: 55px 0 10px 0;
+	    width: 580px;
+	    height: 390px;
+	}
+
+	.column .col-watch-content .featured {
+		float: left;
+		width: 280px;
+	}
+
+	.column .col-watch-content .thumbnails {
+		width: 275px;
+	}
+
+	.column .col-watch-content .thumbnails .thumb {
+		width: 120px;
+		float: left;
+	}
+
+	.column .col-watch-content .thumbnails ul {
+		width: 100%;
+		float: left;
+	}
+
+	.column .col-watch-content .thumbnails ul li {
+		list-style: none;
+		margin: 0 0 10px 10px;
+	}
+
+	.column .col-watch-content .thumbnails .thumb-details ul li {
+		list-style: none;
+	}
+
+	/* hack */
+	.column .col-watch-content .view-all {
+		position: relative;
+		top:-80px;
+	}
+}
+
+/*** 480 ***/
+@media screen and (max-width: 513px) {
+
+	.header #search {
+		width: 100%;
+		margin: 0;
+	}
+
+	.header #search input { 
+		width: 75%; 
+	}
+
+	/* Pillars & Columns */
+	.pillar1, .pillar2,
+	.adaptive-pillar1, 
+	.adaptive-pillar2 {
+		float: none;
+		width: 480px;
+		height: auto;
+		margin: 0;
+		clear: both;
+	}
+
+	/* Watch column hack */
+	.pillar3 {
+		margin-bottom: 10px;
+	}
+
+	/* Latest IP column hack */
+	.adaptive-pillar1 {
+		float: none;
+		height: 200px;
+		margin-top: 0px;
+		margin-bottom: 150px;
+	}
+
+	.column { width: 100%; }
+	.column .col-learn-content,
+	.column .col-read-content,
+	.column .col-latest-content,
+	.column .col-industry-content {
+		width: 460px;
+	}
+
+	/* Learn Column */
+	.column .col-learn-content {
+		height: 360px;
+	}
+
+	/* Read Column */
+	.column .col-read-content {
+		height: 490px;
+	}
+
+	/* Watch column */
+	.col-watch .col-header {
+		position: relative;
+		/* centering hack */
+		right: 140px;
+	}
+
+	.column .col-watch-content {
+	    width: 460px;
+	    height: 340px;
+	    margin-bottom: 20px;
+	}
+
+	.column .col-watch-content .featured {
+		float: none;
+		width: 440px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.column .col-watch-content .featured .title-small {
+		text-align: left;
+	}
+
+	.column .col-watch-content .featured .description {
+		text-align: left;
+	}
+
+	/* Latest Column */
+	.col-latest-content {
+		height: 220px;
+	}
+
+	/* hack */
+	.column .col-watch-content .view-all {
+		position: relative;
+		top: 20px;
+	}
+}
+
+/*** 320 ***/
+@media screen and (max-width: 353px) {
+
+	.container, .content {
+		max-width: 320px;
+	}
+
+	.header #search {
+		width: 100%;
+		margin: 0;
+	}
+
+	.header #search input { 
+		width: 70%; 
+	}
+
+	.header .header-nav .mobile-nav-btn {
+		float: right;
+		margin-top: -40px;
+	}
+
+	.header #advanced-dropdowns {
+		padding-left: 10px;
+	}
+
+	.header #advanced-dropdowns ul li {
+		
+	}
+
+	/* Pillars & Columns */
+	.pillar1, .pillar2,
+	.adaptive-pillar1, 
+	.adaptive-pillar2 {
+		float: none;
+		width: 320px;
+		margin: 0 auto;
+		height: auto;
+		clear: both;
+	}
+
+	.column { 
+		width: 320px;
+		padding: 0;
+	}
+	.column .col-learn-content,
+	.column .col-read-content,
+	.column .col-watch-content,
+	.column .col-latest-content,
+	.column .col-industry-content {
+		width: 300px;
+	}
+
+	.column .col-header {
+		/* .col-header hack */
+		margin: 0 20px 0 -24px;
+		text-align: center;
+	}
+
+	/* Learn Column */
+	.column .col-learn-content {
+		height: 340px;
+	}
+
+	/* hack */
+	.col-learn-content .view-all {
+		position: relative;
+		top: 20px;
+	}
+
+	/* Watch Column */
+	.col-watch-content {
+		height: 440px;
+	}
+
+	/* hack */
+	.col-watch-content .view-all {
+		position: relative;
+		top: 0px;
+	}
+
+	.col-watch .col-header {
+		position:relative;
+		left: 0px;
+    	z-index: 10000;
+	}
+
+	.column .col-watch-content .featured {
+		float: none;
+		width: 280px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.col-watch .col-header {
+		
+	}
+
+	.column .col-watch-content {
+		width: 300px;
+	}
+<<<<<<< .mine
+=======
+}
+
+/*** M768 ***/
+@media screen and (max-width: 801px) {
+	.header .header-bot { overflow: visible; }
+	#advanced_dropdown.dropdown-menu { border-radius: 0 0 0 0; height: auto; margin: 0; padding: 10px; right: -191px; top: 36px; width: 727px; }
+	#advanced_dropdown #advanced_search label { width: 150px; margin: 5px 3px; }
+	#advanced_dropdown #advanced_search { margin: 15px 0; }
+	#advanced_dropdown #advanced_search input[type="image"] { margin: 10px; }
+	#concierge_dropdown.dropdown-menu { right: -31px; top: 36px; width: 750px; height: 525px; }
+	#concierge_dropdown .left-concierge { width: 48%; height: 100%; }
+	#concierge_dropdown .right-concierge { padding: 0; width: 50%; }
+	#concierge_dropdown .right-concierge  form{ margin-top: 10px; }
+	#concierge_dropdown .right-concierge .float_left { padding: 0 0 0 15px; }
+	#concierge_dropdown .right-concierge .float_right { float: left; padding: 0 0 0 10px; margin: 0; }
+	.right-concierge input { width: 341px; }
+	#concierge_dropdown .right-concierge .float_right textarea { height: 162px; width: 341px; }
+	#advanced_dropdown #advanced_search #ip_advanced .ip_option.foundry .ip_check_boxes label { width:167px; }
+	.container.ipcore-page .topnav-ads {
+		display: none;
+	}
+	.container.ipcore-page .sidebar-ads {
+		display: none;
+	}
+}
+
+/*** M640 ***/
+@media screen and (max-width: 641px) {
+	#advanced_dropdown #advanced_search label { width: 167px; }
+	#advanced_dropdown.dropdown-menu { width: 612px; }
+	#advanced_dropdown #advanced_search #ip_news { clear: both; }
+	#advanced_dropdown #advanced_search #white_papers { clear: both; }
+	#advanced_dropdown #advanced_search #chip_tv { clear: both; }
+	#advanced_dropdown #advanced_search #ip_advanced #ip_check_boxes { width: 330px; }
+	#advanced_dropdown #advanced_search #ip_advanced #ip_check_boxes label { width: 129px; }
+	#advanced_dropdown #advanced_search #forty, #advanced_dropdown #advanced_search #fifty_five, #advanced_dropdown #advanced_search #ninety, #advanced_dropdown #advanced_search #one_fifty, #advanced_dropdown #advanced_search #two_fifty { clear: both; }
+	#advanced_dropdown #advanced_search label { width: 260px; }
+	#advanced_dropdown #advanced_search #ip_advanced .ip_option.node .ip_check_boxes label { width: 160px; }
+	#advanced_dropdown #advanced_search #tower, #advanced_dropdown #advanced_search #smic , #advanced_dropdown #advanced_search #ibm , #advanced_dropdown #advanced_search #x-fab { clear: both; }
+	#advanced_dropdown #advanced_search #global_foundries{ clear: none; }
+	#advanced_dropdown #advanced_search #ip_advanced .ip_option.foundry .ip_check_boxes label { width: 160px; background-color: #999999; }
+	#advanced_dropdown #advanced_search #structured { clear: both; }
+	#concierge_dropdown.dropdown-menu { height: auto; right: -18px; width: 619px; }
+	#concierge_dropdown .left-concierge { height: 288px; margin: 0 auto; width: 100%; float: none; }
+	#concierge_dropdown .right-concierge { clear: both; padding: 0; width: 100%; }
+	#concierge_dropdown .close{ background: none repeat scroll 0 0 hsl(240, 4%, 91%); }
+	#concierge_dropdown .left-concierge p { width: 395px; }
+	#concierge_dropdown .left-concierge .concierge-header { padding: 0 0 14px 51px; }
+	#concierge_dropdown .left-concierge .blue_number { margin: 5px 11px 0 78px; }
+	#concierge_dropdown .right-concierge .float_right textarea { height: 162px; width: 405px; }
+	#concierge_dropdown .right-concierge input { width: 405px; }
+	#concierge_dropdown .right-concierge .float_left { padding: 0 0 0 82px; }
+	#concierge_dropdown .right-concierge .float_right { padding: 0 0 0 82px; }
+>>>>>>> .r122
+}
+
+.container.ipcore-page .column .col-content.refine-search .ip_option.foundry .ip_check_boxes {
+
+	width: 98%;
+}
+.container.ipcore-page .column .col-content.refine-search .ip_option.foundry .ip_check_boxes input {
+	margin: 0 5px 5px 0;
+}
+.container.ipcore-page .column .col-content.refine-search .ip_option.foundry .ip_check_boxes label {
+    width: 48%;
+	vertical-align: middle;
+	margin: 0;
+	float: left;
+
+}
+.container.ipcore-page .column {
+	float: left;
+}	
+
+.container.ipcore-page .column .col-content.refine-search .ip_option .ip_option_name  {
+    width: 90%;
+}
