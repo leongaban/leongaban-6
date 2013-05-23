@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Leon Gaban | Web Designer &amp; Developer</title>
+    <title>Leon Gaban | Designer &amp; Front-end Developer</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hi I'm Leon Gaban a Web designer / Developer that fixes your problems. How can I help you today?">
-    <meta name="keywords" content="web design, web development, web designer, web developer, portfolio">
+    <meta name="description" content="Hi I'm Leon Gaban a Designer / Developer that fixes your problems. How can I help you today?">
+    <meta name="keywords" content="UI design, web development, web designer, web developer, portfolio">
     <meta name="author" content="Leon Gaban">
 
 	<meta property="og:image" content="images/leon_gaban.png"/>
@@ -264,13 +264,6 @@
         </footer>
 
     </div><!-- outer -->
-
-
-<!-- jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-<!-- AJAX email validation -->
-<!-- <script type="text/javascript" src="js/email_val.js"></script> -->
 
 <!-- Google Analytics -->
 <script src="js/googleanalytics.js"></script>
