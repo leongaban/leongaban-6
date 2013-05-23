@@ -27,6 +27,19 @@ $(document).ready(function () {
 	        $(this).css('color', '#333');
 	    };
 
+	    /* Github Rollover */
+	    $('#github-img').mouseover(git_ico_On);
+    	function git_ico_On(event) {
+	        $(this).attr("src","images/github-white.png");
+	        console.log($(this).attr("src"));
+	    };
+
+	    $('#github-img').mouseout(git_ico_Off);
+    	function git_ico_Off(event) {
+	        $(this).attr("src","images/github.png");
+	        console.log($(this).attr("src"));
+	    };
+
 
 	    /* Audio Effects */
 	    var audio = $("#mySoundClip")[0];

@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hi I'm Leon Gaban a Designer / Developer that fixes your problems. How can I help you today?">
+    <meta name="description" content="Hi I'm Leon Gaban a Designer &amp; Front-end Developer">
     <meta name="keywords" content="UI design, web development, web designer, web developer, portfolio">
     <meta name="author" content="Leon Gaban">
 
 	<meta property="og:image" content="images/leon_gaban.png"/>
-	<meta property="og:title" content="Leon Gaban - Web Designer | Developer"/>
+	<meta property="og:title" content="Leon Gaban - Designer &amp; Front-end Developer"/>
 	<meta property="og:site_name" content="Leon Gaban's Portfolio"/>
 	<meta property="og:type" content="portfolio"/>
 
@@ -29,6 +29,7 @@
 
     <link href="http://fonts.googleapis.com/css?family=Bitter:400,700,400italic" rel="stylesheet" type="text/css" >
     <link href="css/style.css" type="text/css" rel="stylesheet" >
+
     <script type='text/javascript' src="js/jquery-2.0.0.min.js"></script>
     <script type='text/javascript' src='js/leongaban.js'></script>
     <script src="/mint/?js" type="text/javascript"></script>
@@ -152,7 +153,7 @@
                     </li>
 
                     <li>
-                        <a href="/portfolio/nationwide/index.html">
+                        <a href="/portfolio/nationwide">
                             <img class="role-thumb" alt="Submit" src="images/thumb_nationwide.png" alt="Nationwide">
                             <p>Nationwide</p>
                         </a>
@@ -201,10 +202,6 @@
                 <!-- Social Icons -->
                 <div class="social-links">
                     <ul>
-                        <li class="ico_facebook">
-                            <a href="http://facebook.com/leongaban">
-                            <img src="images/facebook.png" alt="Facebook Icon"/></a>
-                        </li>
                         <li class="ico_twitter">
                             <a href="http://twitter.com/leongaban">
                             <img src="images/twitter.png" alt="Twitter Icon"/></a>
@@ -224,6 +221,10 @@
                         <li class="ico_codepen">
                             <a href="http://codepen.io/leongaban" title="My Codepen Experiments">
                             <img src="images/codepen.png" alt="Codepen"></a>
+                        </li>
+                        <li class="ico_github">
+                            <a href="https://github.com/leongaban" title="My code on Github">
+                            <img src="images/github.png" id="github-img" alt="Github Icon"/></a>
                         </li>
                     </ul>
                 </div>

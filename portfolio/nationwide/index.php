@@ -53,7 +53,7 @@
                 <?php include '../../includes/showcase-nav.php'; ?>
 
                 <div id="case-h1h2">
-                    <h1>Nationwide Insurance</h1>
+                    <!-- <h1>Nationwide Insurance</h1> -->
                 </div>
             </header>
 
@@ -72,7 +72,7 @@
 
                 <div class="showcase-thumbs nw-container">
 
-                    <div class="second">
+                    <div class="first">
 
                         <div class="nw-curtain-box">
                             <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="600">
@@ -89,22 +89,19 @@
 
                     </div><!-- second -->
 
-                    <div class="third">
+                    <!-- <div class="third">
                         
                         <div class="nw-curtain-box">
                             <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="600">
                                 <param name="movie" value="satellite.swf" />
-                                <!--[if !IE]>-->
                                 <object type="application/x-shockwave-flash" data="satellite.swf" width="300" height="600">
-                                    <!--<![endif]-->
                                     <p>You don't have Flash installed, <a href="http://www.adobe.com/go/getflashplayer">please download it here</a></p>
-                                    <!--[if !IE]>-->
                                 </object>
-                                <!--<![endif]-->
                             </object>
                         </div>
 
-                    </div><!-- third -->
+                    </div> -->
+                    <!-- third -->
 
                 </div>
 
