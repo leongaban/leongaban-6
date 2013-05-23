@@ -1,8 +1,6 @@
-Repository for leongaban.com
-============================
-- Leon Gaban | Designer & Front-end Developer
----------------------------------------------
-* * *
+#Repository for leongaban.com
+## Leon Gaban | Designer & Front-end Developer
+----------------------------------------------
 
 - [x] Added portfolio next/previous navigation
 - [x] Took out Facebook link, added Github
@@ -14,3 +12,5 @@ Repository for leongaban.com
 http://leongaban.com | [@leongaban](http://twitter.com/leongaban "Follow me on Twitter")@leongaban
 http://stackoverflow.com/users/168738/leon
 http://codepen.io/leongaban
+
+![GitHub Logo](/images/logo.png)
