@@ -1,6 +1,16 @@
-My first git repository
-
-For http://leongaban.com 
-
+Repository for leongaban.com
+============================
 - Leon Gaban | Designer & Front-end Developer
-@leongaban
+---------------------------------------------
+* * *
+
+- [x] Added portfolio next/previous navigation
+- [x] Took out Facebook link, added Github
+- [x] Added repository to Github
+- [ ] Add Captcha to contact form
+- [ ] Add more sexiness to contact form
+- [ ] For next version use a template system (Backbone, Angular or Ember)
+
+http://leongaban.com | [@leongaban](http://twitter.com/leongaban "Follow me on Twitter")@leongaban
+http://stackoverflow.com/users/168738/leon
+http://codepen.io/leongaban
