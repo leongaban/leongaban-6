@@ -1,0 +1,208 @@
+<!-- DASHBOARD widgets -->
+					<!--
+					<div id="dashboard-widgets-container">
+					<ul id="sortable" class="dashboard-list">
+
+						<li id="li-affiliate-search">
+							<section id="widget-affiliate-search">
+								<header>
+									<img class="widget-logo" src="/assets/img/dashboard/whoat-white-icon.png" alt="Who@"/>
+									<h1>New My Requests Activity</h1>
+									<img class="drag-icon" src="/assets/img/dashboard/drag-handle.png" alt="Drag"/>
+								</header>
+							</section>
+
+							<div class="table-container-boss">
+								<table id="my_requests_activity" cellspacing="0" cellpadding="0" border="1">
+					
+									<thead>
+										<tr>
+											<td colspan="4" class="affiliate-search-h1">
+												<img src="/assets/img/dashboard/icon-blue-fork.png" alt="Requests"/>
+												New My Requests Activity
+											</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td class="subheads">I Want to Meet:</td>
+											<td class="subheads">Title</td>
+											<td class="subheads">Company</td>
+										</tr>
+									</thead>
+									
+									<tbody>
+										<tr>
+											<td colspan="4" height="1" bgcolor="#e0e0e0"></td>
+										</tr>
+										
+										%if messages_inbox:
+								            % for message in messages_inbox:
+								                ${makerow_inbox(message)}
+								            % endfor
+								        %else:
+								            <tr>
+								            	<td colspan="10">
+								            		<p class="message">You haven't made any requests</p>
+								            	</td>
+								        	</tr>
+								        %endif
+
+									</tbody>
+								</table>
+							</div>
+
+							<div class="table-container">
+								<table id="unread_incoming_requests" cellspacing="0" cellpadding="0" border="1">
+									<thead>
+										<tr>
+											<td colspan="5" class="affiliate-search-h1">
+												<img src="/assets/img/dashboard/icon-blue-incoming.png" alt="Requests"/>
+												Unread Incoming Requests
+											</td>
+										</tr>
+									</thead>
+									
+									<thead>
+										<tr>
+											<td></td>
+											<td class="subheads">I Want to Meet:</td>
+											<td class="subheads">Title</td>
+											<td class="subheads" colspan="2">Message</td>
+										</tr>
+									</thead>
+									<tbody>
+										%if messages_outbox:
+								            % for message in messages_outbox:
+								                ${makerow_outbox(message)}
+								            % endfor
+								        %else:
+								            <tr>
+								            	<td colspan="10">
+								            		<p class="message">You don't have any incoming requests</p>
+								            	</td>
+								        	</tr>
+								        %endif
+									</tbody>
+								</table>
+							</div>
+						</li>
+
+						<li id="li-wishlist" class="ui-state-default">
+
+							<section id="widget-wishlist">
+								<header>
+									<img class="widget-logo" src="/assets/img/dashboard/icon-wishlist-white.png" alt="Wishlist"/>
+									<img class="drag-icon" src="/assets/img/dashboard/drag-handle.png" alt="Drag"/>
+								</header>
+							</section>
+
+							<div class="table-container">
+								<table id="wishlist-table" cellspacing="0" cellpadding="0" border="1">
+									<thead>
+										<tr>
+											<td class="wish-title">WishList Title</td>
+											<td class="wish-title">
+												<img class="drag-icon" src="/assets/img/dashboard/icon-blue-tick.png" alt="Blue Tick"/>Potential Matches</td>
+											<td class="wish-title">
+												<img class="drag-icon" src="/assets/img/dashboard/icon-blue-connections.png" alt="Connections"/>Connections
+											</td>
+											<td class="wish-title">
+												<img class="drag-icon" src="/assets/img/dashboard/icon-blue-fork.png" alt="Outgoing"/>Outgoing Requests
+											</td>
+											<td class="wish-title">
+												<img class="drag-icon" src="/assets/img/dashboard/icon-blue-incoming.png" alt="Incoming"/>Incoming Requests
+											</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="wishlist-name">My First WishList</td>
+											<td class="wish-data">10</td>
+											<td class="wish-data">2</td>
+											<td class="wish-data">4</td>
+											<td class="wish-data">1</td>
+										</tr>
+										<tr>
+											<td class="wishlist-name">CFO Search</td>
+											<td class="wish-data">6</td>
+											<td class="wish-data">4</td>
+											<td class="wish-data">1</td>
+											<td class="wish-data">0</td>
+										</tr>
+										<tr>
+											<td class="wishlist-name">B Round Fund Raising</td>
+											<td class="wish-data">6</td>
+											<td class="wish-data">0</td>
+											<td class="wish-data">0</td>
+											<td class="wish-data">2</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</li>
+
+						<li id="li-heatmap" class="ui-state-default">
+							<section id="widget-heat-map">
+								<header><h1>My Heat Map</h1></header>
+								<img class="drag-icon" src="/assets/img/dashboard/drag-handle.png" alt="Drag"/>
+							</section>
+							
+							<div class="table-container">
+								<div id="map-canvas"></div>
+							</div>
+						</li>
+
+						<li id="li-widget-my-network" class="ui-state-default">
+							<section id="widget-my-network">
+								<header><h1>My Network</h1></header>
+								<img class="drag-icon" src="/assets/img/dashboard/drag-handle.png" alt="Drag"/>
+							</section>
+
+							<div class="table-container">
+								<img src="/assets/img/dashboard/temp-graph.png" alt="My Network Graph"/>
+
+								<table id="network-data-table" cellspacing="0" cellpadding="0" border="1">
+									<thead>
+										<tr>
+											<td class="network-number">2984</td>
+											<td colspan="3" class="network-title">Total People in your Network</td>
+										</tr>
+									</thead>
+									
+									<tbody>
+										<tr>
+											<td colspan="4" height="5"></td>
+										</tr>
+										<tr>
+											<td class="network-number">1820</td>
+											<td class="network-contacts">CoWorkers Contacts</td>
+											<td class="network-number col2">421</td>
+											<td class="network-contacts">Friends Contacts</td>
+										</tr>
+										<tr>
+											<td class="network-number">302</td>
+											<td class="network-contacts">Group Contacts</td>
+											<td class="network-number col2">441</td>
+											<td class="network-contacts">Your Contacts</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</li>
+
+						<li id="li-widget-network-breakdown" class="ui-state-default">
+							<section id="widget-network-breakdown">
+								<header><h1>Network Breakdown</h1></header>
+								<img class="drag-icon" src="/assets/img/dashboard/drag-handle.png" alt="Drag"/>
+							</section>
+							<div class="table-container">
+								<img class="drag-icon" src="/assets/img/dashboard/temp-network-breakdown.png" alt="Network Breakdown"/>
+							</div>
+						</li>
+					</ul>
+
+					<div class="spacer-div"></div>
+					</div>
+					-->
+
+					<!-- dashboard-widgets-container -->

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Who@ Login | Register</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Who@ Login &amp; Registration page">
+    <meta name="keywords" content="who, who@, whoat, networking, sales, business, introductions, relationships, fund raising, event, meet, intro">
+    <meta name="author" content="Whoat.net">
+
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Who@ - A new and private way of leveraging your contacts to expand your business."/>
+	<meta property="og:site_name" content="Who@"/>
+	<meta property="og:type" content="App"/>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<!-- html5.js for IE less than 9 -->
+	<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+
+	<!-- css3-mediaqueries.js for IE less than 9 -->
+	<!--[if lt IE 9]><script src="js/css3-mediaqueries.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+
+    <script type="text/javascript" src="../js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-plugins/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="../js/jquery-plugins/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+    <script type='text/javascript' src="../js/whoat.js"></script>
+</head>
+
+<body id="body-login">
+
+	<div class="container">
+
+		<div class="login-container">
+
+			<div class="login-box">
+				<div class="login-logo"><a href="../index.html" title="Who@"><img src="../img/logo-login.png" alt="who@" /></a></div>
+
+				<div class="login-tab-nav">
+					<ul>
+						<li id="tab-login">Login</li>
+						<li id="tab-register" class="tab-bot-border">Register</li>
+					</ul>
+				</div>
+				<!-- login-tab-nav -->
+
+				<!-- LOGIN -->
+				<div id="login-form">
+					<!-- <ul>
+						<li id="tab-login" class="tab-bot-border">Login</li>
+						<li id="tab-register">Register</li>
+					</ul> -->
+
+					<input type="text" id="login-username" name="username" value="username"/>
+					<input type="password" id="login-password" name="password" value="password"/>
+
+					<a href="#">Forgot your password?</a>
+
+					<button type="button">login</button>
+
+					<div id="login-form-background"></div>
+
+				</div>
+
+				<!-- REGISTER -->
+				<div id="register-form">
+
+					<!-- EMAIL -->
+					<input type="email" id="register-email" name="email" onblur="if (this.value == '') {this.value = 'email';}" onfocus="if (this.value == 'email') {this.value = '';}" maxlength="28" value="email"/>
+
+						<div class="email-tip-icon"><img src="../img/question-icon.png" alt="?"/></div>
+						<div class="tip-message" id="message-email"><span>We recommend a valid work email</span></div>
+
+					<!-- FIRST NAME -->
+					<input type="text" id="register-firstname" name="firstname" onblur="if (this.value == '') {this.value = 'firstname';}" onfocus="if (this.value == 'firstname') {this.value = '';}" value="firstname"/>
+
+					<!-- LAST NAME -->
+					<input type="text" id="register-lastname" name="lastname" onblur="if (this.value == '') {this.value = 'lastname';}" onfocus="if (this.value == 'lastname') {this.value = '';}" value="lastname"/>
+
+					<!-- PASSWORD -->
+					<input type="password" id="register-password" name="password" value="password">
+
+						<div class="password-tip-icon"><img src="../img/question-icon.png" alt="?"/></div>
+						<div class="tip-message" id="message-password"><span>Minimum 6 Characters</span></div>
+	
+					<button type="button">login</button>
+
+					<div id="register-form-background"></div>
+
+				</div><!-- register-form -->
+
+				<!-- <div id="form-background"></div> -->
+
+			</div><!-- login-box -->
+
+	    </div><!-- login-container -->
+
+    </div><!-- container -->
+
+<div id="footer">
+    <span>Copyright &copy; 2013 Whoat LLC. All rights reserved. Terms of Use  |  Privacy Policy</span>
+</div>
+
+<!-- LiveReload | remove before production -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html> 

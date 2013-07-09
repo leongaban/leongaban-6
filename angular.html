@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Leon's Angular Tests</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learning Angular.js">
+    <meta name="keywords" content="angular">
+    <meta name="author" content="Leon Gaban">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  	<!-- html5.js for IE less than 9 -->
+  	<!--[if lt IE 9]>
+  		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]-->
+
+  	<!-- css3-mediaqueries.js for IE less than 9 -->
+  	<!--[if lt IE 9]>
+  		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  	<![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+
+    <link href="css/main.css" type="text/css" rel="stylesheet" >
+
+    <script type='text/javascript' src="js/jquery-2.0.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+</head>
+
+<body>
+
+    <!-- <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div> -->
+
+    <div>
+      <input type="search" ng-model="search">
+    </div>
+
+    <div ng-controller="List">
+      <ul>
+        <li ng-repeat="person in people | filter:search">{{person.name}} : {{person.age}}</li>
+      </ul>
+    </div>
+
+    <script>
+      var List = function($scope){
+        $scope.people = [
+          {name: "Tom", age: 20},
+          {name: "Jeffrey", age: 30},
+          {name: "Dan", age: 40},
+          {name: "David", age: 50},
+          {name: "Peter", age: 60}
+        ];
+      };
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
