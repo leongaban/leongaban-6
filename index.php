@@ -104,6 +104,13 @@
                 <ul id="portfolio-thumbs">
 
                     <li>
+                        <a href="/portfolio/whoat">
+                            <img class="role-thumb" src="images/thumb_whoat.jpg" alt="WhoAt">
+                            <p>Who@</p>
+                        </a>
+                    </li>
+
+                    <li>
                         <a href="/portfolio/chipestimate">
                             <img class="role-thumb" src="images/thumb_chipestimate.png" alt="ChipEstimate">
                             <p>ChipEstimate</p>
