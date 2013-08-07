@@ -177,6 +177,8 @@
                         <li class="title">Software</li>
                         <li>Photoshop</li>
                         <li>Illustrator</li>
+                        <li>Sublime Text 2</li>
+                        <li>Codekit</li>
                     </ul>
         	    </div>
 
@@ -197,9 +199,7 @@
 
         </section>
 
-        <footer id="showcase-footer">
-            <div id="copyright">&copy;<script>document.write(new Date().getFullYear())</script> Leon Gaban | Web Designer | Developer <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" target="_blank">Creative Commons</a>.</div>
-        </footer>
+        <?php include '../../includes/showcase-footer.php'; ?>
 
     </div><!-- outer -->
 

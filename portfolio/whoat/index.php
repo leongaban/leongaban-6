@@ -53,7 +53,7 @@
                 </div>
 
                 <div id="view-more-button">
-                    <input onclick="window.open('http://leongaban.com/portfolio/whoat.html')" class="view-more-button" type="submit" value="Who@ Preview">
+                    <input onclick="window.open('http://leongaban.com/portfolio/whoat/whoat.html')" class="view-more-button" type="submit" value="Who@ Preview">
                 </div>
             </header>
 
@@ -107,7 +107,7 @@
                 </div>
 
                 <div id="view-more-button">
-                    <input onclick="window.open('http://leongaban.com/portfolio/whoat.html')" class="view-more-button" type="submit" value="Who@ Preview">
+                    <input onclick="window.open('http://leongaban.com/portfolio/whoat/whoat.html')" class="view-more-button" type="submit" value="Who@ Preview">
                 </div>
             </header>
 
@@ -138,17 +138,17 @@
 
             <div id="case-container">
 
-            <h1>Building my first web based dashboard</h1>
+            <h1>Developing my first web based dashboard</h1>
 
             <div id="case-study-description">
                 <p>
-                    Currently I'm having the incredible oppertunity to develop the website and online dashboard for the Who@ enterprise contacts management and intro request app.
+                    Currently I'm having the incredible oppertunity to develop <a href="http://leongaban.com/portfolio/whoat/whoat.html" title="WhoAt preview">the website, online dashboard and emails</a> for the <a href="http://whoat.net">Who@</a> enterprise contacts &amp; relationship management app. And eventually for the rest of our products.
                 </p>
                 <p>
-                    The requirements for the website and dashboard include IE8 compliance, responsive design and lots of jQuery goodness in the form of jQuery UI and other modern functionality to engage users.
+                    The requirements for the website and dashboard include <a href="http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/" title="Responsive web design">responsive design</a>, IE8 compliance and lots of jQuery goodness in the form of <a href="http://jqueryui.com/" title="jQuery UI">jQuery UI</a> and other modern functionality to engage users.
                 </p>
                 <p>
-                    Working for startup WhoAt LLC is my latest foray into the realm of agile development, I love working with small teams where members have their dedicated purpose with some crossover.
+                    Working for startup WhoAt LLC is my latest foray into the realm of agile development, I love working with small teams where members have their dedicated purpose with some crossover and truly owning my part of the project.
                 </p>
             </div><!-- #case-study-description -->
 
@@ -165,7 +165,7 @@
         <!-- Technology Used -->
         <section id="technology">
 
-            <h1>Technology used on WhoAt</h1>
+            <h1>Technology being used on WhoAt</h1>
 
             <div id="case-container">
 
@@ -174,20 +174,25 @@
                         <li class="title">Code</li>
                         <li>HTML 5</li>
                         <li>CSS 3</li>
+                        <li>SASS (Love Mixins &amp; Variables)</li>
                         <li>jQuery</li>
                         <li>Mako templating</li>
-                        <li>Pyramid (Python framework) integration</li>
+                        <li>Pyramid (Python framework)</li>
                     </ul>
                     <ul>
-                        <li class="title">Software</li>
+                        <li class="title">Technology</li>
+                        <li><a href="http://www.alfredapp.com/" title="Alfred">Alfred</a> (Can't live without it now)</li>
                         <li>Photoshop</li>
-                        <li>SublimeText 2</li>
-                        <li>PyCharm</li>
+                        <li><a href="http://www.sublimetext.com/" title="Best code editor Sublime Text 2">SublimeText 2</a></li>
+                        <li>PyCharm (Python IDE)</li>
+                        <li>Codekit</li>
+                        <li><a href="http://codepen.io/leongaban/public/" title="Codepen">Codepen</a> (For testing layouts)</li>
+                        <li>Source Tree (Prefer <a href="https://github.com/leongaban" title="Leon on Github">Github</a>)</li>
+                        <li><a href="http://iterm.sourceforge.net/" title="iTerm">iTerm</a> (Better than Terminal)</li>
                     </ul>
         	    </div>
 
                 <div id="call-to-action">
-
                     <ul>
                         <li>
                             <input onclick="window.open('http://leongaban.com/#portfolio')" class="cta-button" type="submit" value="View more case studies">
@@ -196,16 +201,13 @@
                             <input onclick="window.open('http://leongaban.com/#contact')" class="cta-button" type="submit" value="Contact me for work">
                         </li>
                     </ul>
-                    
                 </div>
 
             </div><!-- case-container -->
 
         </section>
 
-        <footer id="showcase-footer">
-            <div id="copyright">&copy;<script>document.write(new Date().getFullYear())</script> Leon Gaban | Web Designer | Developer <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" target="_blank">Creative Commons</a>.</div>
-        </footer>
+        <?php include '../../includes/showcase-footer.php'; ?>
 
     </div><!-- outer -->
 

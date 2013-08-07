@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Leon Gaban | Designer &amp; Front-end Developer</title>
+    <title>Leon Gaban | Designer &amp; Front-End Developer</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hi I'm Leon Gaban a Designer &amp; Front-end Developer">
-    <meta name="keywords" content="UI design, web development, web designer, web developer, portfolio">
+    <meta name="description" content="Hi I'm Leon Gaban a Designer &amp; Front-End Developer">
+    <meta name="keywords" content="ui design, web development, web designer, web developer, front end developer, portfolio">
     <meta name="author" content="Leon Gaban">
 
 	<meta property="og:image" content="images/leon_gaban.png"/>
-	<meta property="og:title" content="Leon Gaban - Designer &amp; Front-end Developer"/>
+	<meta property="og:title" content="Leon Gaban - Designer &amp; Front-End Developer"/>
 	<meta property="og:site_name" content="Leon Gaban's Portfolio"/>
 	<meta property="og:type" content="portfolio"/>
 
@@ -55,7 +55,7 @@
 
                     <h1>Hello, I'm Leon Gaban</h1>
                     <h2>Designer &amp; Front-End Developer</h2>
-                    <h3>UI design | HTML 5 | CSS 3 | jQuery</h3>
+                    <h3>UI design | HTML 5 | CSS 3 + SASS | jQuery</h3>
                 </div>
             </header>
 
@@ -86,7 +86,7 @@
 
                     <h1>Hello, I'm Leon Gaban</h1>
                     <h2>Designer &amp; Front-End Developer</h2>
-                    <h3>UI design | HTML 5 | CSS 3 | jQuery</h3>
+                    <h3>UI design | HTML 5 | CSS 3 + SASS | jQuery</h3>
                 </div>
             </header>
 

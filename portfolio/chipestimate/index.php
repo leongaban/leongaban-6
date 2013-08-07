@@ -61,7 +61,7 @@
 
                 <div class="showcase-nav">
                     <div class="previous-showcase">
-                        <a href="../tvp"><div class="showcase-btn" id="btn-prev">&larr; Previous</div></a>
+                        <a href="../whoat"><div class="showcase-btn" id="btn-prev">&larr; Previous</div></a>
                         <div class="showcase-btn-shadow"></div>
                     </div>
                     <div class="next-showcase">
@@ -116,7 +116,7 @@
                 
                 <div class="showcase-nav">
                     <div class="previous-showcase">
-                        <a href="../tvp"><div class="showcase-btn" id="btn-prev">&larr; Previous</div></a>
+                        <a href="../whoat"><div class="showcase-btn" id="btn-prev">&larr; Previous</div></a>
                         <div class="showcase-btn-shadow"></div>
                     </div>
                     <div class="next-showcase">
@@ -204,9 +204,7 @@
 
         </section>
 
-        <footer id="showcase-footer">
-            <div id="copyright">&copy;<script>document.write(new Date().getFullYear())</script> Leon Gaban | Web Designer | Developer <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" target="_blank">Creative Commons</a>.</div>
-        </footer>
+        <?php include '../../includes/showcase-footer.php'; ?>
 
     </div><!-- outer -->
 
