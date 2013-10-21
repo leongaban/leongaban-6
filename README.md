@@ -2,6 +2,8 @@
 ## Leon Gaban | Designer & Front-end Developer
 ----------------------------------------------
 
+![leon gaban logo](https://raw.github.com/leongaban/leongaban-com/master/leongaban.png)
+
 Fixed Readme, updated portfolio, adding image
 
 
