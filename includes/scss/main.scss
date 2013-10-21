@@ -1,0 +1,118 @@
+@import "reset";
+
+/*-------------------------------------------------- 
+Who@'s Master Stylesheet ---------------------------
+----------------------------------------------------
+
+====================================================
+CONTENTS:
+
+001 DEFAULTS
+002 INDEX
+
+0XX Print Styles
+====================================================
+
+/*-------------------------------------------------- 
+01 Defaults ----------------------------------------
+--------------------------------------------------*/
+
+// EM font sizes:
+$px32: 2em;
+$px40: 2.500em;
+$px64: 4em;
+
+/* Mixins */
+@mixin transition($transition-property, $transition-time, $method) {
+	-webkit-transition: $transition-property $transition-time $method;
+	-moz-transition: $transition-property $transition-time $method;
+	-ms-transition: $transition-property $transition-time $method;
+	-o-transition: $transition-property $transition-time $method;
+	transition: $transition-property $transition-time $method;}
+@mixin box-shadow($value) {
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    box-shadow: $value;}
+@mixin rounded($radius: 10px) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;  
+    border-radius: $radius;}
+@mixin bgcover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+@mixin opacity($decimal,$whole) {
+    opacity: $decimal;
+    filter: alpha(opacity=$whole);}
+
+input { outline: none; }
+html { height: 100%; overflow: hidden; }
+body {
+	width: 100%;
+	font-family: 'Raleway', 'HelveticaNeue-Light', 'Helvetica Neue Light', Arial, sans-serif;
+	background: white;
+}
+
+section {
+    margin: 8% auto;
+	width: 80%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: $px32;
+    line-height: 1.5em;
+    color: #999;
+}
+
+h2 {
+    margin-top: 60px;
+    font-weight: 100;
+    font-size: $px64;
+    color: #333;
+}
+
+h3 {
+    margin-top: 60px;
+
+    a {
+        color: #4183c4;
+    }
+}
+
+.facebook {
+    margin-top: 60px;
+
+    img {
+        cursor: pointer;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        background: #4183c4;
+        background-position: top center;
+        @include transition(background, .2s, ease-in-out);
+    }
+
+    img:hover {
+        background: lighten(#4183c4, 10%);
+    }
+}
+
+/* m480 */
+@media all and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+        line-height: 1.75em;
+    }
+}
+
+
+
+
+
+
+
+
+
