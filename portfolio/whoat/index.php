@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The WhoAt Virtualizing the Worlds Contacts</title>
+    <title>WhoAt Virtualizing the Worlds Contacts</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,7 @@
                 </div>
 
                 <div id="view-more-button">
-                    <input onclick="window.open('http://whoat.net')" class="view-more-button" type="submit" value="WhoAt.net">
+                    <input onclick="window.open('http://whoat.net')" class="view-more-button" type="submit" value="Visit WhoAt.net">
                 </div>
             </header>
 
@@ -142,7 +142,7 @@
 
             <div id="case-study-description">
                 <p>
-                    Currently I'm having the incredible oppertunity to develop <a href="http://leongaban.com/portfolio/whoat/whoat.html" title="WhoAt preview">the website and web app</a> for <a href="http://whoat.net" title="Who@">Who@</a>, who makes contacts &amp; relationship management apps.
+                    Currently I'm having the incredible oppertunity to develop the website and web app for <a href="http://whoat.net" title="Who@">Who@</a>, who makes contacts &amp; relationship management apps.
                 </p>
                 <p>
                     The requirements for the website and dashboard include <a href="http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/" title="Responsive web design">responsive design</a>, IE8 compliance and lots of jQuery goodness in the form of <a href="http://jqueryui.com/" title="jQuery UI">jQuery UI</a> and other modern functionality to engage users.
@@ -201,9 +201,9 @@
                         <li>
                             <input onclick="window.open('http://leongaban.com/#portfolio')" class="cta-button" type="submit" value="View more case studies">
                         </li>
-                        <li>
+                        <!-- <li>
                             <input onclick="window.open('http://leongaban.com/#contact')" class="cta-button" type="submit" value="Contact me for work">
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
 
