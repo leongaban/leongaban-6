@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Leon Gaban | Designer &amp; Front-End Developer</title>
+    <title>Leon Gaban | Front-End Developer for WhoAt.net</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hi I'm Leon Gaban a Designer &amp; Front-End Developer">
-    <meta name="keywords" content="ui design, web development, web designer, web developer, front end developer, portfolio">
+    <meta name="description" content="Leon Gaban, front-end developer for WhoAt.net">
+    <meta name="keywords" content="ui design, web development, web designer, web developer, front end developer, who@">
     <meta name="author" content="Leon Gaban">
 
 	<meta property="og:image" content="images/leon_gaban.png"/>
@@ -53,9 +53,9 @@
                 <div id="logo-title">
                     <img src="images/leon_gaban.png" width="256" height="256" class="avatar" />
 
-                    <h1>Hello, I'm Leon Gaban</h1>
-                    <h2>Designer &amp; Front-End Developer</h2>
-                    <h3>UI design | HTML 5 | CSS 3 + SASS | jQuery</h3>
+                    <h1>Hi, I'm Leon Gaban</h1>
+                    <h2>Front-End Developer</h2>
+                    <h3>for <a href="http://whoat.net" title="Who@">WhoAt.net</a></h3>
                 </div>
             </header>
 
@@ -236,7 +236,7 @@
                     </ul>
                 </div>
 
-                <h1>Contact Me</h1>
+                <!-- <h1>Contact Me</h1>
 
                 <div id="status"></div>
 
@@ -264,7 +264,7 @@
         	            <input class="submit-button" type="submit" value="Submit" tabindex="4">
         	        </div>
 
-	           </form>
+	           </form> -->
 
                 <div id="copyright">&copy;<script>document.write(new Date().getFullYear())</script> Leon Gaban | Web Designer | Developer <br/> <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" target="_blank">Creative Commons</a>.</div>
     	    </div>
