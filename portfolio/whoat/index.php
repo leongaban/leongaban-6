@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The WhoAt Case Study</title>
+    <title>The WhoAt Virtualizing the Worlds Contacts</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Case Study for WhoAt on LeonGaban.com">
+    <meta name="description" content="Who@ Virtualizing the worlds contacts">
     <meta name="keywords" content="whoat, web design, web development, web designer, web developer, portfolio">
     <meta name="author" content="Leon Gaban">
 
@@ -48,12 +48,12 @@
                 <?php include '../../includes/showcase-nav.php'; ?>
 
                 <div id="case-h1h2">
-                    <h1>You are viewing the Who@ case study</h1>
+                    <h1>I work at WhoAt</h1>
                     <h2>Work performed: Markup, jQuery &amp; Pyramid integration</h2>
                 </div>
 
                 <div id="view-more-button">
-                    <input onclick="window.open('http://leongaban.com/portfolio/whoat/whoat.html')" class="view-more-button" type="submit" value="Who@ Preview">
+                    <input onclick="window.open('http://whoat.net')" class="view-more-button" type="submit" value="WhoAt.net">
                 </div>
             </header>
 
@@ -102,12 +102,12 @@
                 <?php include '../../includes/showcase-nav.php'; ?>
 
                 <div id="case-h1h2">
-                    <h1>You are viewing the Who@ case study</h1>
-                    <h2>Work performed: Markup, jQuery &amp; Pyramid integration</h2>
+                    <h1>I work at WhoAt</h1>
+                    <h2>Markup, jQuery, Backbone &amp; Python integration</h2>
                 </div>
 
                 <div id="view-more-button">
-                    <input onclick="window.open('http://leongaban.com/portfolio/whoat/whoat.html')" class="view-more-button" type="submit" value="Who@ Preview">
+                    <input onclick="window.open('http://whoat.net')" class="view-more-button" type="submit" value="WhoAt.net">
                 </div>
             </header>
 
@@ -138,23 +138,26 @@
 
             <div id="case-container">
 
-            <h1>Developing my first web based dashboard</h1>
+            <h1>Developing my first web app</h1>
 
             <div id="case-study-description">
                 <p>
-                    Currently I'm having the incredible oppertunity to develop <a href="http://leongaban.com/portfolio/whoat/whoat.html" title="WhoAt preview">the website, online dashboard and emails</a> for the <a href="http://whoat.net">Who@</a> enterprise contacts &amp; relationship management app. And eventually for the rest of our products.
+                    Currently I'm having the incredible oppertunity to develop <a href="http://leongaban.com/portfolio/whoat/whoat.html" title="WhoAt preview">the website and web app</a> for <a href="http://whoat.net" title="Who@">Who@</a>, who makes contacts &amp; relationship management apps.
                 </p>
                 <p>
                     The requirements for the website and dashboard include <a href="http://coding.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/" title="Responsive web design">responsive design</a>, IE8 compliance and lots of jQuery goodness in the form of <a href="http://jqueryui.com/" title="jQuery UI">jQuery UI</a> and other modern functionality to engage users.
                 </p>
                 <p>
-                    Working for startup WhoAt LLC is my latest foray into the realm of agile development, I love working with small teams where members have their dedicated purpose with some crossover and truly owning my part of the project.
+                    I'm actually in the process of refactoring the web app for a 3nd time, this time using <a href="http://backbonejs.org/" title="backbone.js">Backbone.js.</a> It makes it really easy to take in and manipulate the JSON objects that get sent over from Python. Highly recommend checking it out if you haven't already and are a front-end developer.
+                </p>
+                <p>
+                    Working for startup <a href="http://whoat.net" title="WhoAt">WhoAt</a> is my foray into the realm of agile development, I love working with small teams where members have their dedicated purpose with tons of crossover as well as truly owning my part of the project and company. You learn fast in startups, really loving it!
                 </p>
             </div><!-- #case-study-description -->
 
             <div id="case-study-extra">
                 <a href="https://itunes.apple.com/us/app/who/id536254085?mt=8whoatnet-to-itunes" title="Try the App" target="_blank"><img src="../../images/extra_whoat.jpg"/></a>
-                <span>Try the Who@ contacts app for enterprise</span>
+                <span>Try our Who@ Intro app for enterprise</span>
             </div>
 
             </div>
@@ -176,7 +179,8 @@
                         <li>CSS 3</li>
                         <li>SASS (Love Mixins &amp; Variables)</li>
                         <li>jQuery</li>
-                        <li>Mako templating</li>
+                        <li>Backbone.js</li>
+                        <li>Mako templates</li>
                         <li>Pyramid (Python framework)</li>
                     </ul>
                     <ul>
@@ -188,7 +192,7 @@
                         <li>Codekit</li>
                         <li><a href="http://codepen.io/leongaban/public/" title="Codepen">Codepen</a> (For testing layouts)</li>
                         <li>Source Tree (Prefer <a href="https://github.com/leongaban" title="Leon on Github">Github</a>)</li>
-                        <li><a href="http://iterm.sourceforge.net/" title="iTerm">iTerm</a> (Better than Terminal)</li>
+                        <li><a href="http://iterm.sourceforge.net/" title="iTerm">iTerm</a> (Way better than Terminal)</li>
                     </ul>
         	    </div>
 

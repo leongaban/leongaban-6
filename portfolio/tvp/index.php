@@ -149,7 +149,7 @@
                     Their original website was constrained in a Flash movie. At first we went about the project with a completely responsive & adaptive layout, however as the site evolved TVP asked us to experiment more and  come up with several different solutions. In the end we decided to go with a more standard site for desktops and a mobile only version.
                 </p>
                 <p>
-                    This project is still in progress and you can view the <a href="http://raresquare.com/clients/turquoise/version2/" target="_blank">latest version here.</a>
+                    This project is still in progress and you can view the <a href="http://tvideoproductions.com" target="_blank">latest version here.</a>
                 </p>
             </div><!-- #case-study-description -->
 
