@@ -274,6 +274,7 @@
     </div><!-- outer -->
 
 <!-- Google Analytics -->
+<<<<<<< HEAD
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -285,6 +286,17 @@
 </script>
 
 <!-- Crazy Egg -->
+=======
+<script src="js/googleanalytics.js"></script>
+
+<!-- Crazy Egg -->
+<script type="text/javascript">
+	setTimeout(function(){var a=document.createElement("script");
+	var b=document.getElementsByTagName('script')[0];
+	a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0006/1105.js?"+Math.floor(new Date().getTime()/3600000);
+	a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+>>>>>>> 503bec79660fffa9aee06bd526e775c01fb0a3f4
 
 </body>
 </html>

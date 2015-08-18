@@ -8,11 +8,20 @@ $(document).ready(function () {
 	// Main function
 	$(function () {
 		
+<<<<<<< HEAD
 		// var $window = $(window);
 		// $(window).resize(function() {
 			// var windowsize = $window.width();
 			// console.log('windowsize = '+windowsize);
 		// });
+=======
+		var $window = $(window);
+		$(window).resize(function() {
+			var windowsize = $window.width();
+			console.log('windowsize = '+windowsize);
+		});
+
+>>>>>>> 503bec79660fffa9aee06bd526e775c01fb0a3f4
 
 		/* Portfolio thumb rollover */
 		$('#showcase-holder li a').mouseover(thumbOn);
@@ -39,6 +48,10 @@ $(document).ready(function () {
 	        console.log($(this).attr("src"));
 	    };
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 503bec79660fffa9aee06bd526e775c01fb0a3f4
 	    /* Audio Effects */
 	    var audio = $("#mySoundClip")[0];
     
@@ -67,6 +80,10 @@ $(document).ready(function () {
 		$(".cta-button").mouseenter(function() { audio.play(); });
 		$(".view-more-button").mouseenter(function() { audio.play(); });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 503bec79660fffa9aee06bd526e775c01fb0a3f4
 	}); // Main function
 
 }); // document ready

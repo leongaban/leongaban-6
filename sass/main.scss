@@ -211,6 +211,7 @@ div.outerWrap { position:relative; z-index:2; }
     z-index: 4;
 }
 
+<<<<<<< HEAD
 #logo-title {
 
     h1, h3 {
@@ -227,6 +228,16 @@ div.outerWrap { position:relative; z-index:2; }
         color: #f58733;
         text-decoration: none;
     }
+=======
+#logo-title h1, #logo-title h3 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+#logo-title h1, #logo-title h2 {
+    color: #414141;
+    text-shadow: 1px 1px #fff;
+>>>>>>> 503bec79660fffa9aee06bd526e775c01fb0a3f4
 }
 
 #logo-title h1 { font-size: 2em; }
